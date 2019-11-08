@@ -4,11 +4,16 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #nav-bar
 {
   position: sticky;
   top: 0;
   z-index: 10;
+  background: transparent;
 }
 
 .navbar-brand img
@@ -63,7 +68,7 @@
 }
 
 /*------- About ------ */
-#about
+.about-us
 {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -84,6 +89,17 @@
 {
   text: center;
 
+}
+/*------ Section Paddings --------*/
+#menu
+{
+  padding: 6x 12x 13x 16x;
+  border: 3px solid black;
+
+}
+#contact
+{
+  border: 3px solid black;
 }
 /*------ Breakfast columns ------*/
 .column
